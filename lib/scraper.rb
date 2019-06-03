@@ -38,7 +38,7 @@ class Scraper
     
     curr_profile[:profile_quote] = doc.css("div.profile-quote").text
     curr_profile[:bio] = doc.css("div.bio-block.details-block div.description-holder p").text
-    binding.pry
+
     curr_profile
   end
 
